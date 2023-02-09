@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.uniovi.sdi</groupId>
-    <artifactId>sdi-2223-703-lab-see</artifactId>
+    <artifactId>sdi-2223-703-lab-jee</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>sdi-2223-703-lab-see</name>
+    <name>sdi-2223-703-lab-jee</name>
     <packaging>war</packaging>
 
     <properties>
@@ -19,9 +19,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>jakarta.servlet</groupId>
-            <artifactId>jakarta.servlet-api</artifactId>
-            <version>5.0.0</version>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
