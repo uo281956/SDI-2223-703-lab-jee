@@ -40,7 +40,10 @@
   <ul>
     <c:forEach var="item" items="${selectedItems}">
       <tr>
-        <li>${item.key}-${item.value}</li>
+        <li>
+            ${item.key}-${item.value}-
+          <a class="remove-link" href="RemoveFromCart?product=<c:out value="${item.key}"/>">eliminar</a>
+        </li>
       </tr>
     </c:forEach>
   </ul>
